@@ -1,4 +1,4 @@
-## Laravel To Do
+## Laravel To Dos
 
 To Do small system using laravel including authentication
 
