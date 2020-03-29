@@ -17,6 +17,12 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
+
+                        <li>
+
+                            <a href="#"><i class="fas fa-user"></i>Hi, {{ Auth::user()->name }}</a>
+                            
+                        </li>
                         
                           <li>
                              <a href="{{url('/dashboard')}}"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
